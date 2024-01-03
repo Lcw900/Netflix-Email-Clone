@@ -1,0 +1,217 @@
+<mjml>
+  <mj-head>
+    <mj-title>My Email</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+
+
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .text-link {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .content-background {
+        padding: 0px 0;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000" align="center" padding="0">
+    <mj-section css-class="content-background" padding="0 0 0 10px" align="center" background-color="#000000">
+
+    <mj-text align="center" color="#e50914" font-family="noto sans, ariel" font-weight="500" font-size="40px">
+      Lindsey's Netflix Email Clone
+    </mj-text>
+
+
+      <!--Hero Section-->
+      <mj-section padding="0" margin="0">
+        <mj-column>
+          <mj-image padding-top="0" width="600px" href="https://www.netflix.com/title/81681112?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_PRIMARY_HERO_IMAGE_0&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NZ4L2Zu8Q8CWAav6OH-8-csQUV_JV_w0N2y666lTqbhALSlgvNd0jz6OQvOpmv_IS8tXN-YSj576jgBZxwPHMYip6CgH80XmQiCL1SH4aWT1fQoiUeQZvP_RSKgpEGpzWNTaxs7owfdjNY9K4kY4J599moXugkGE38LxSunoC-ExrzZQbXE-ulDWntc_Im7c_pE9aYE4vJpmx4cxRrL4HO1DY5vl_6lKFz0MezjLBituwAE2be3_QyGoW5ZfDz96rkWkkAi4M073HbJ6DbiF4bYws8tPeb4Yl2_IIuxt7kaq48P3K0jAr3uub_YeKkele8Cfvq0EHW7DvkQJmFjtUxgdlyirbAyIkynqOazXwxg3KeR1TOkE9Gg0htkL1hRhsmjCc7EcfVKEVFrSD_3GPuljvL76e5GrJOPBm023XvqUrmtuTwD=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/FiBQtKtbffS36QbSEEjDXZzuhEs/AAAABStglTihuemn1si1-Rrr6q4cmtSNPBCSPrvBkyvpaJsYgpjYH-fNbR1TyRZhsgkoFPpTvY7Eq2_YqR5GYLQUokTX9BmT9EdAw69DFRJ6lfFvZdhIZGVZTt0XvBoZSC4_X-ZTYU5HVjQzmTVNxv6XrIx3Aj9SDacQGBguTupIxSmcWVnH_hUz0XSyO5UqWVclipQWNGcuAqrtlZXCbD7dncxazRTVktrxI7Nbvg.jpg?r=280" alt="Captains of the World">
+        </mj-column>
+      </mj-section>
+
+      <!--Hero Footer-->
+      <mj-section class="discription" background-color="#000000" padding="20px 20px 5px 20px">
+        <mj-group>
+          <mj-column>
+            <mj-text align="center" font-family="NetflixSans-Regular,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="400" font-size="12px" line-height="15px" letter-spacing="-0.12px" color="#f5f5f1">
+              Captivating • Docuseries • Behind the Scenes • Soccer
+            </mj-text>
+            <mj-text align="left" font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="18px" line-height="22px" letter-spacing="-0.35px" color="#ffffff" padding-top="20px">
+              Captains of the World
+            </mj-text>
+            <mj-text align="left" font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="14px" letter-spacing="-0.2px" padding-top="12px" color="#ffffff" line-height="32px">
+              Coming Saturday
+            </mj-text>
+            <mj-text align="left" font-family="NetflixSans-Regular,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="400" font-size="14px" line-height="18px" letter-spacing="-0.25px" color="#ffffff" padding-top="12px">
+              From the locker room to the pitch, this docuseries offers exclusive access to all 32 teams as they fight for football glory in the 2022 FIFA World Cup. <a href="https://www.netflix.com/title/81681112?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_PRIMARY_MORE_INFO_0&lnktrk=EVO&trkid=13710079" style="color:#ffffff;text-decoration:underline">More Info</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Remind Me & Play Trailer Buttons-->
+      <mj-section align="center" width="600px" padding="10px 0">
+        <mj-group>
+          <mj-column padding="0 10px" width="50%">
+            <mj-button padding="0 10px" width="250px" height="50px" href="https://www.netflix.com/title/81681112?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_REMINDME_CTA&lnktrk=EVO&trkid=13710079" background-color="#e50914" border-radius="4px" color="#f5f5f1" font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="14px" line-height="17px">
+              Remind Me
+            </mj-button>
+          </mj-column>
+
+          <mj-column padding="0 10px" width="50%">
+
+            <mj-button width="250px" padding="0 10px" height="50px" href="https://www.netflix.com/watch/81696680?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_TRAILER_CTA&lnktrk=EVO&trkid=13710079" background-color="#333333" border-radius="4px" color="#f5f5f1" font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="14px" line-height="17px">
+              Play Trailer
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Coming Soon Row 1-->
+      <mj-section align="left" padding="10px 20px 0px 0px">
+        <mj-column>
+          <mj-text font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="18px" line-height="22px" letter-spacing="-0.35px" padding="24px 20px 0px 20px" color="#ffffff">
+            Coming Soon
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Coming Soon Movies Row 1-->
+      <mj-section class="movies" padding="3px 0px 0px 15px" align="center">
+        <mj-group>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81004278?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_ROW_0_TITLE_0&amp;lnktrk=EVO&amp;trkid=13710079" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABS795uEU9vpKFSD2qj0fNTDUdPvSPJT1Om5i4ljs6fu1gVtR54NBQ4amb3lL74HTl_o8wMuLKehkh5z2Old5ksmJnUdcILgraEg_.jpg?r=258" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81133452?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_ROW_0_TITLE_1&amp;lnktrk=EVO&amp;trkid=13710079" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABfFGlxPeQAfJOl_8b6Tw1gnIOPRkT4mVe60LAnZhg-lSBTazqTule0hLDaUCFjq3oi1vSgJ9W3zQovHR5vBKfbzDV0ryj19LvsZZFsEj4zrAa_ujkpniuN55YveJm_HNLW7Onw.jpg?r=5ba" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81670643?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_ROW_0_TITLE_2&amp;lnktrk=EVO&amp;trkid=13710079" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABfd0RDBMK9qAks4Xd106eQVeyN1i-IYnmAY7AvuyUfxZlzZAZc7ml65YaIZxU3StOwbVzl_1v-wNASg9ABJHLdyv0rXg7SRdw5Z8.jpg?r=d46" border-radius="8px" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Coming Soon Row 2-->
+      <mj-section align="left" padding="10px 20px 0px 0px">
+        <mj-column>
+          <mj-text font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="18px" line-height="22px" letter-spacing="-0.35px" padding="24px 20px 0px 20px" color="#ffffff">
+            Coming Soon
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Coming Soon Movies Row 2-->
+      <mj-section class="movies" padding="3px 0px 0px 15px" align="center">
+        <mj-group>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81279324?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_1_TITLE_0&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NbLIDJSKOipv4PPdxJgtsi4F_FGO4eiiKEdHUbT_n7GvgGS7fTGueYvGjm-js92Z3Axz5vf53XGV7fuVvaOH0-AJZl1sNw9G9tL0nNN1NjFT2dPt7vUgelazUEzTc6nhQo4ebON53F-b6rQ4do5zc_GHDil0FiLvY_88V7sCos0GcksBJrXiwM0t3Eanu5BxQvd8WnNRkx9Lu725kK0UWRg2WnYr4hjdGl6_XEkhBBLXxmt8fpdnXhTr4gitRQ7bhjCq15sHPSLk-vG6ywSbNeoiCX00mC3JNIM6UZcvApKYaMpo_wlbctxeIS6HILtZnwLjgjcfyeAcpnLoNksSHOFK-jax-muuFqkBf29R-KwnViKHZ2r6mmWBmkgSL3rIddCVE7JZRRXZXs3JUCjjJUMBVAMG81obOhT_6TQo5IQ5A9R95yts4FE3r9L8LkNKzv37lunboyEG-MeTQNLdFGOzFlZjF2UPjOllqy3P_wTipiBSE5GFPIKHkUzrZE=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABfJAc6APTOBf-sz-oz8u4p8pxWutT2iFPdZ0XYa6ZqkKh6eX_KBIqvpAwLjUjFo8hpd8Srd0BR3KZix4XgC5P1wAVWw4h12k1fo1ZpNCM88HUp4yofYcRByvWfnoc7qnTOHEz6VnpmBiYw5ctPQWuK2i6e8EArQKkDvyCC8s8vHtBeNnW-MCiiqIMG4Dt_kAy2vjbRAVduXA6w9v5QzKUtCmxdLbW_rP0l-dXkfBHR_q0NT7VdtJgwcIGpR3jN3Yd8O4wQlV0spOiYpW1wYeBkIKPay_gQ.jpg?r=f84" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81223025?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_1_TITLE_1&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_Nbt9EAVfW9SgwSjfe3c4zJc8T9qLZEXSFsgldGt-mCV3BZ8XZK8CXMKYzd5XmhoOiycPdO4welUwOOzP3ohDVtKW6HhtlUA1jwN2oymwJbGC6qVxD-8NP80VrVSwEewVLrdcRCv6gdzHLxD_SfQ4n8j3mGXJ02wF3hkV-_LWUuSge7r09GtZSianJ_k6EdRPI-F5yI2ggiXvQn8kofJ8o1CR-I_WXzlpCIjKbw9OsrKx6K8YA4uf-4hklnUJ2HnXfXd4BHj6lq32wangpbp3-yUVjQA3U8VZK2D2saIj-Z9HPDKa3AEKG4PvF4R-FOxrfGKqLcKSxjj5jembesQVB3MMH1vBIO5clLr6wqNekuzBeKVMQwJ_iNlxCao9gmA1RR40fVaJV6yI1G-BSa34df1Re2h7ZtlKzfqO0XME186mDfAAI43Pc7hcg8ZXHG1HCzQY3Jo6dyBrubAbmMlSwk7U5sGphXecsIFwTmpU72msCTHN5ZhmeGvVEEggMJ1oEkR0z8VCTeC_Ylmq2Yc5-B_vqIpi-7_fHia=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABUwSduK2TygIkIZk81PPwtrCKq6r-0ZH2BhiExOuWRy1rE__gMUV7Ql-wGAAT87ldlXFE0id1gaFujlAl_0VeB-SXwSCUkRfuBizJjseRKmxrPhyb3YNsoEdUkiueu3Ng5QLvxFOS0ZON0hUYASDkyxnnUJEB0TxLFFRMBgylhH5oP005aE6fdVKE-T-1yF-r8iD6WgbMX958T46Q86V5n5NVJwqpOX20VDeU24faL3EZuft-0wiMmuAf641iFJcZO4AAmtS2duiWKdv24HXrlWcq1vD8hdrsjq5ibxcn320-AtRX7w3950f6Q.jpg?r=c6b" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81449757?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_1_TITLE_2&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NYUZ8Q5ooyzD6_skToBjA0fTgCZpXfwY48nYqkV5il_1OaBn_RDTw8CuJefz03ym9RRW_ww00ZXruI4jSo3DzOevKVNNyknCgItT7TNnnybv0SRUqIZcHsQHFgBoUAPYkS_YSBJr-YR2tse8i-vQwdGy6B1AB_EhwepMQzo0guHpHG0pxx1Rz_eeQmiF1KSV_1uAnMwvdiaMKSfaPSqiET-VAZrcV3-Rw59vl8Tksbyvjm4gc5LdlunGuSAFNbSFcqs_qFj9pjDAWbJu3V3XfJvIGqJS5VQoFwbQUiZRNZaCPwwhWX-032p6HApF5mCcHtR494Seu8fMVAyAcbb5rG8iCQrMWZAgGgNwb338e1y8_qfqfgAWlvk2k7dzUbx2eoXd1WnxN0vsSL8QkcOTVU3UdSQfE-2Ot1qU6kS8q_2KpOF9BAZhCvYfplt5yWtHZ4Sz4DCyl7BevODzDgP7aMInzVCcWr6NboJjJ8F73LyOVna2Dk1jHTW_JL8uZJ0JozMS22fTS3GMGVtNOBEFTSbHz9X-cLKEAqN=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABd_J4KFgroBwLRo2_G7eiA77XXTU7QzG6QufFc0YdJPCT7Opwz6E3LH2t8Iu2qRNJ0PTMyBBvwNBikMntKYAT5gMvLbTP54kuLFzmAaZYootTefdIN3cmavnNJ5YZ7hys3ieweCrAQVbvZ7tsUA6IvTHiQeyR13hpsHBmXQ-aCdod2bMzXTCjXWK2l_c5mh4R1bfyhOr42qgXsszQ3pK0oLZE3FvkTY-pU77fVSkhC_Ukw9kUmrESS63Hxo9-uWPMqdOECK6k9l62WDhPjp7SMq7xmWFUpIJz236j1ALW6DOw5o3ZfOM8MpTnQ.jpg?r=e1d" border-radius="8px" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Coming Soon Row 3-->
+      <mj-section align="left" padding="10px 20px 0px 0px">
+        <mj-column>
+          <mj-text font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="18px" line-height="22px" letter-spacing="-0.35px" padding="24px 20px 0px 20px" color="#ffffff">
+            Coming Soon
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Coming Soon Movies Row 3-->
+      <mj-section class="movies" padding="3px 0px 0px 15px" align="center">
+        <mj-group>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81030422?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_2_TITLE_0&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_Nb2kkYHljP6PuguHJk_unmplwFT7T_YPcIWWsXGyXy153iuDSs6kIRBv_vtIUJOtYia-g53qzm_90PNzRaY_w8r-zV_P2uhWSdU9MFMLLaVq0_2k6kow_49_ipSeQEHNXwqvbf9NarMbrFRrjC7vWaZZ5M7_dcIuBpnBpYXZEeJf0XphHq2K-8J_kKVW8a2a493aNJu59bZQi7j5NTLgMLpmGumRWp5D2cvbJTB05W9_nlQKZOOlo4ApJpR-NZfwvjidJx3oCPTiCBnAsogW7rvrGo7eigS72g6jDdpoLlPwe2nvErC=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABXam4Qhr_RZLAVzFI5btBxMOmHOyY5052xniQoBvOU94Il64x-hwuzYrypOF67BiUfQ8KqpAE0cLZPbqhOk4007qpoeeUCAUfnFK8OBQNzUFhhA5o1HVTwrQr8F3Kaii_QF8vA.jpg?r=ae8" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/70021640?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_2_TITLE_1&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NYn9FCj3kyKN2iP0P-tZknA8CrT8a1lAV50uShTroQUu4WhI-no5VTDdbG7iiqJeppu_Wt3zg2Te-HmUyp7FmQj6dvzw6Zl25z8A0TSM_Mc1Hz4xqRyRKYOHKp9wUTgHAlACOw0oT2Lnii7mZqqNy-4gGcGkj3kKFLj4HkmWeYgFpROvPlzC8lQrZKe2Bp8q8bjWb07y3PuaWQNWGV53n9aDbUByhMIz28534Et1nG8WA7UukUWdpAk5FOdQTgdfaqWcHk=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABbg72UuvD8LEpAkfXow2mjq-efjk4CdcL6iaDoxGZXwGiDZu7QzhhYJnuPw8Yf0XmEgaxww6tX5Kg_yqKyvSxsq8lF5PmDhcFwnM.jpg?r=faf" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81321341?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_2_TITLE_2&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NaN5LK9_BYg207yKVDvCmdI2prle0Vqf5hdByz_dUIOBHKSpuRVd5oSeavj9nl1khJMxWWmOZH9i8_jt2BaIeGoPQyDV7bb6LG_ceM_lj2EDj7QTrZ6TWP_slv6FSi6gqG9FkqTVvJ5PORJd-BQdJAdpONK1f7SGDRtOpce56hWhu_q4EUZN1gcHuVOYDVV5bd8ph0hWnv7x7NEP6SmC-39RLEjnjUDPg0d9uwkI1uSAhPE2bIX9xYV4HOZD-HLREj4YXVlts9lk0CSv6LcLYUSXN4ig_d46WYb1mLKQe4qtYwIw8qy=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVxlq8G9MIROc-qECa4RhaZDk8na7FiLBdd8GD06TBCpuE4CJIxj88mTB5HWCB7T0x1_3nTyJC2CHf1mKyZO-2-WQ1vhxAaUnQU_7vkUez0NeGwD5bUTBoszUOXRFY2ct-uDWg.jpg?r=ebc" border-radius="8px" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Coming Soon Row 4-->
+      <mj-section align="left" padding="10px 20px 0px 0px">
+        <mj-column>
+          <mj-text font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="18px" line-height="22px" letter-spacing="-0.35px" padding="24px 20px 0px 20px" color="#ffffff">
+            Coming Soon
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Coming Soon Movies Row 4-->
+      <mj-section class="movies" padding="3px 0px 0px 15px" align="center">
+        <mj-group>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81426967?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_3_TITLE_0&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NYMYAjYAgpXftZ1Y3wKtRnFnl9qcyrZ1P0xLzza13I75gyORvwYFVUJJvo0SE9ytVrfBaf9lPU-gL7FNgCtpTOMHelgCPtLWmtpvR9cZUdUJ-OQgUxm1xmtD3UIZy291ozDrBxlLwTmdjHUQGggNmUNUqHpls1YgJ8e7bU6HRNb0A7dT53cR4RTZ3Buo-fiMRK41MKuXaTwTtIo4SvMgix0YF4-qhHcnZbZ8THmUebMsDrJf2kIQEJ0gP7LglUhH3_ti__791zX4ITNU0N4gG8xNjG3OTaZcmNKfC3N3bCZrqe26h29RtPvWizRmZAdu5cMTvvRppqnXPrjuKJuI36PLJYPvtwyn12HtlXv7SlJNCugrPLQpiB-JjxA_XTXY5q0oCfZOhbQVAYdcA64MM86k6ttZHrHzJZVCK6NE_Fy9JzP0eDvaOKPnz4yGCwa-7myzPBiWKsQkJZUuuQImpZja_AvTnE4daOG735hiWoJcF3dI1kWvh7ehqrL6uCS6T0GGdzNVMWJOg7ORpwLDNINH33KFJgMUcLq=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABXTDwPcBpvV51LQRBDfHzic1pXGd3GTwcivCbqE_gt5J0VtEcrASU6WWcDynyYabGO9FtowIq7CmcH9oyc03Dw2-bl0X-q5xrTnhk98K3B7wF8vUTDuE4JH0TnOJX_-4CsUuAFS-4Q91JzJpfFImeOPTx1L_WaUN5_6kNuY_O-WEjSPr4urlAR2-abnxlcC323asSQe8TozhuLsg4XJpSB8yhYPJTd7qKDx0QJSF_ZSc5XBe0bQI0N0DGdVxqTIWgkOOPx1k4hMv2YS2E6r87jjPTR55XjZkZAMvyrdj5BV9wb6UfJdxmCLlVQ.jpg?r=ebf" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81011382?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_3_TITLE_1&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NbCMWcyRkIvs4SatEYs_RhOVDEbfjJBsENwYUejl_YBE3LrmVHQSD4-IL7JbSMXhDQLHVCMdt6vCD88HNrBK0pdNZ9rq8oIyTFQHuKsgAD7Hqubn8DD-T-ll-SP35c_x4EWWhLeYL3vzoqnO9FsZi_il3p-LtO6QZJdsHtl53Bog6jg05aIErRfYoccOZU1AAmrxczxt7gymTxn3MSiMS-qmlpQ6qMKaz-1SzQOONxBzClrKZJASOjzc-NeHnDjYJ_Oqsw=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABdXJRmmrlvxT8S_0ILgaIi4JmmpCs-xBBADdWcnbvEwfcxMdQJE5hWtnZZN5bseb3q6_LpxDJOXqs-L5HUfPHfcT42ZgNGbOs9i2.jpg?r=12c" border-radius="8px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="5px 5px" href="https://www.netflix.com/title/81611640?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&lkid=URL_ROW_3_TITLE_2&lnktrk=EVO&trkid=13710079" src="https://ci3.googleusercontent.com/meips/ADKq_NZjFF6ctw-IlxnOUpM3rXHvhQOaW3CoyJkgXVZsYcVGkI17_lsuhcrKi1bcL-RaSnzqmKD0vreeVY181og17Dlo66ZXTIjY2kZIegfCeQ4dB8f5WbtHMXgjtolDfcSORvLiPGy_v8-EeFhwdTdsTcGeST2pwbY-e7YFgDoyxA6YzYquoi_L1OOM-KBuL3k2PJ1Yf5tkMS_bqpuIY-dDIG1xii6YTOkO1gug5mSaCN8vCeldrLAzmu-NwI3qJoiDuwBc4wcezOY8L2P_TFkXXS3_sPGIXvSBzb-zOVRUIvUr_MRaquicBljOPs3Q8lIH7m2ZwTGCbAbN1gfOQlQeuKDvFCPb-ia_AMu4f_7wGZf3bjVHfZs9pxSSZvyt06clQQKl8zJdCOklPZzz93q6Or42MrzY4VTFV0GLqOx7EaG6QeksE2qW7HchcSNTCkATm1xS09jC4UA-ugr8rgAJo8N7dgrFgIlx3nt0RUKj69xwE10U2VgkQwttvyMPWP5Y0YWWy_YasVSDM4EfMFzwncyo2A9BFyhpdHBE=s0-d-e1-ft#https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABRKn8ia4zupv85RLWT75heeF67wN_lTd2gXdxoWf-bAi1FfAYZrtTyRVS70aSOxt7s1KPFiREvECKgGbIuLqKahF8n8FzbDWm4orAfd-TD2aKmg5_1aPI7nXRXG0tbpOZcSdOgxvOsNrmgzV-qr4kB2zpjqoPk8H6SfYBV79Uv3K4XBsZS1QUjCBKxO_uJrX1jORyXXaf6TOpsGJCKQKPwciU-tBmL7mAQS8B_EAqN1NnCdJRlPVwxsyNhtTcXxDHgIYECilIx-Jx3ZOv6zs0ZL7W0FpnxHrlCmuid3TOPuIfW_VnW453ePZ0w.jpg?r=7b6" border-radius="8px" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--View All TV Shows & Movies-->
+      <mj-section>
+        <mj-column>
+          <mj-button height="50px" width="475px" href="https://www.netflix.com/browse?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_VIEW_ALL&amp;lnktrk=EVO" font-family="NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif" font-weight="700" font-size="14px" line-height="17px" background-color="#414141" border-radius="4px" color="#ffffff">
+            View All TV Shows &amp; Movies
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!--Footer-->
+      <mj-section css-class="footer" padding="20px 15px" width="30%" width="100px"> 
+       <mj-group padding="0 0px">
+        <mj-column padding="0 0 20px 0" width="35px" align="center">
+          <mj-image padding="0" css-class="netflix-logo" src="https://assets.nflxext.com/us/email/gem/nflx.png" alt="" width="24px"></mj-image>
+        </mj-column>
+
+        <mj-column padding="0" align="center" width="70%" padding="0">
+          <mj-text padding-top="0" font-size="14px" color="#a4a4a4">Questions? Call 1-844-505-2993</mj-text>
+          <mj-text font-size="11px" color="#a4a4a4">
+            <a href="https://help.netflix.com/legal/corpinfo?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_CORP_INFO&amp;lnktrk=EVO" style="color:#a4a4a4;text-decoration:none" target="_blank">121 Albright Way, Los Gatos, CA 95032, U.S.A.</a>
+          </mj-text>
+          <mj-text font-size="12px" color="#a9a6a6" padding-top="20px">
+            <a href="https://www.netflix.com/notificationsettings/email?id=BQE0AAEBEJDjMYCsASupaoTm7p%2FxCkCAgNU43yIBU8po2vm%2BFcJJymtA1633O%2Fq9hkqv4m6V6HICPf%2BXIODScQqABxAcFBvs1dPgEyW3Kl%2FNr5k18l7Hsvi5buK0UiMiKRcKREA9o7rs%2BOLQOZ6dp%2FP9efgqOBzcpu3BigTIMCBUXSTGVc%2Fd4fKO7DOvV7tsm0%2FRC8L%2B6FPq&amp;g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;mid=2&amp;lkid=URL_UNSUB&amp;lnktrk=EVO" style="text-decoration:underline;line-height:20px;color:#a4a4a4" target="_blank">Unsubscribe</a><br>
+            <a href="https://www.netflix.com/TermsOfUse?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_TERMS&amp;lnktrk=EVO" style="text-decoration:underline;line-height:20px;color:#a4a4a4" target="_blank">Terms of Use</a><br>
+            <a href="https://www.netflix.com/PrivacyPolicy?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_PRIVACY&amp;lnktrk=EVO" style="text-decoration:underline;line-height:20px;color:#a4a4a4" target="_blank">Privacy</a><br>
+            <a href="https://help.netflix.com/help?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_HELP&amp;lnktrk=EVO" style="text-decoration:underline;line-height:20px;color:#a4a4a4" target="_blank">Help Center</a>
+          </mj-text>
+          <mj-text font-size="11px" color="#a4a4a4" padding-top="20px">
+            This message was mailed to <a href="https://www.netflix.com/browse?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_EMAIL&amp;lnktrk=EVO" style="color:#a4a4a4;text-decoration:none" target="_blank">[lalcinay@gmail.com]</a> by Netflix as part of your Netflix&nbsp;membership.<br>
+            SRC: <a href="https://www.netflix.com/browse?g=ad7a2969-6d68-4338-b9d1-adfdf98dcc34&amp;lkid=URL_SRC&amp;lnktrk=EVO" style="color:#a4a4a4;text-decoration:none" target="_blank">62E0498A_ad7a2969-6d68-4338-b9d1-adfdf98dcc34_en_US_EVO</a>
+          </mj-text>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+
+
+    </mj-section>
+  </mj-body>
+</mjml>
